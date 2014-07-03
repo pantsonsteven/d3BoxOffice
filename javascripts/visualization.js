@@ -1,177 +1,197 @@
-boxOffice =    [
-   [
-      {"date": "June 1, 2014"},
-      {"movies": 
-         [
-            {"movie":"X-Men: Days of Future Past","grossSales":9339859 },
-            {"movie":"Maleficent","grossSales":19383198 },
-            {"movie":"A Million Ways to Die in The West","grossSales":4231615 },
-            {"movie":"Godzilla","grossSales":3417587 },
-            {"movie":"Neighbors","grossSales":2129605 },
-            {"movie":"Blended","grossSales":1996403 },
-            {"movie":"The Amazing Spider-Man 2","grossSales":1091519 },
-            {"movie":"Million Dollar Arm","grossSales":950909 },
-            {"movie":"Chef","grossSales":524109 },
-            {"movie":"Rio 2","grossSales":354959 }
-         ]
-      }
-   ],
-   [
-      {"date": "June 2, 2014"},
-      {"movies":
-         [
-            {"movie":"Maleficent","grossSales":6207742 },
-            {"movie":"X-Men: Days of Future Past","grossSales":3163908 },
-            {"movie":"A Million Ways to Die in The West","grossSales":1627855 },
-            {"movie":"Godzilla","grossSales":1152979 },
-            {"movie":"Neighbors","grossSales":911525 },
-            {"movie":"Blended","grossSales":709031 },
-            {"movie":"The Amazing Spider-Man 2","grossSales":378342 },
-            {"movie":"Million Dollar Arm","grossSales":344767 },
-            {"movie":"Chef","grossSales":206211 },
-            {"movie":"The Other Woman","grossSales":158352 }
-         ]
-      }
-   ],
-   [
-      {"date": "June 3, 2014"},
-      {"movies":
-         [
-            {"movie":"Maleficent","grossSales":7196208 },
-            {"movie":"X-Men: Days of Future Past","grossSales":3787895 },
-            {"movie":"A Million Ways to Die in The West","grossSales":1864635 },
-            {"movie":"Godzilla","grossSales":1370135 },
-            {"movie":"Neighbors","grossSales":1059450 },
-            {"movie":"Blended","grossSales":918371 },
-            {"movie":"The Amazing Spider-Man 2","grossSales":501119 },
-            {"movie":"Million Dollar Arm","grossSales":429362 },
-            {"movie":"Chef","grossSales":237294 },
-            {"movie":"The Other Woman","grossSales":190344 }
-         ]
-      }
-   ],
-   [
-      {"date": "June 4, 2014"},
-      {"movies":
-         [
-            {"movie":"Maleficent","grossSales":5612603 },
-            {"movie":"X-Men: Days of Future Past","grossSales":2824137 },
-            {"movie":"A Million Ways to Die in The West","grossSales":1419590 },
-            {"movie":"Godzilla","grossSales":1117001 },
-            {"movie":"Neighbors","grossSales":897550 },
-            {"movie":"Blended","grossSales":762465 },
-            {"movie":"The Amazing Spider-Man 2","grossSales":402062 },
-            {"movie":"Million Dollar Arm","grossSales":399096 },
-            {"movie":"Chef","grossSales":244412 },
-            {"movie":"The Other Woman","grossSales":170963 }
-         ]
-      }
-   ],
-   [
-      {"date": "June 5, 2014"},
-      {"movies":
-         [
-            {"movie":"Maleficent","grossSales":5399117 },
-            {"movie":"X-Men: Days of Future Past","grossSales":2605125 },
-            {"movie":"A Million Ways to Die in The West","grossSales":1280505 },
-            {"movie":"Godzilla","grossSales":1013205 },
-            {"movie":"Neighbors","grossSales":765605 },
-            {"movie":"Blended","grossSales":718238 },
-            {"movie":"The Amazing Spider-Man 2","grossSales":370971 },
-            {"movie":"Million Dollar Arm","grossSales":366752 },
-            {"movie":"Chef","grossSales":247348 },
-            {"movie":"Belle","grossSales":158169 }
-         ]
-      }      
-   ],
-   [
-      {"date": "June 6, 2014"},
-      {"movies": 
-         [
-            {"movie":"The Fault in Our Stars","grossSales":26062046 },
-            {"movie":"Edge of Tomorrow","grossSales":10605165 },
-            {"movie":"Maleficent","grossSales":10189870 },
-            {"movie":"X-Men: Days of Future Past","grossSales":4510017 },
-            {"movie":"A Million Ways to Die in The West","grossSales":2260790 },
-            {"movie":"Godzilla","grossSales":1781428 },
-            {"movie":"Neighbors","grossSales":1645835 },
-            {"movie":"Blended","grossSales":1282320 },
-            {"movie":"Chef","grossSales":720232 },
-            {"movie":"Million Dollar Arm","grossSales":616395 }
-         ]
-      }
-   ],
-   [
-      {"date": "June 7, 2014"},
-      {"movies": 
-         [
-            {"movie":"Maleficent","grossSales":13463278 },
-            {"movie":"The Fault in Our Stars","grossSales":12680655 },
-            {"movie":"Edge of Tomorrow","grossSales":10474234 },
-            {"movie":"X-Men: Days of Future Past","grossSales":6176540 },
-            {"movie":"A Million Ways to Die in The West","grossSales":2908685 },
-            {"movie":"Godzilla","grossSales":2509131 },
-            {"movie":"Neighbors","grossSales":2180550 },
-            {"movie":"Blended","grossSales":1699365 },
-            {"movie":"Chef","grossSales":1105294 },
-            {"movie":"Million Dollar Arm","grossSales":853302 }
-         ]
-      }   
-   ],
-   [
-      {"date": "June 8, 2014"},
-      {"movies":
-         [
-            {"movie":"Maleficent","grossSales":10675116 },
-            {"movie":"The Fault in Our Stars","grossSales":9259822 },
-            {"movie":"Edge of Tomorrow","grossSales":7680847 },
-            {"movie":"X-Men: Days of Future Past","grossSales":4468257 },
-            {"movie":"A Million Ways to Die in The West","grossSales":2179020 },
-            {"movie":"Godzilla","grossSales":1830620 },
-            {"movie":"Neighbors","grossSales":1498770 },
-            {"movie":"Blended","grossSales":1140718 },
-            {"movie":"Chef","grossSales":796303 },
-            {"movie":"The Amazing Spider-Man 2","grossSales":598078 }
-         ]
-      }
-   ],
-   [
-      {"date": "June 9, 2014"},
-      {"movies":
-         [
-            {"movie":"The Fault in Our Stars","grossSales":5095488 },
-            {"movie":"Maleficent","grossSales":4047865 },
-            {"movie":"Edge of Tomorrow","grossSales":3167460 },
-            {"movie":"X-Men: Days of Future Past","grossSales":1765307 },
-            {"movie":"A Million Ways to Die in The West","grossSales":917935 },
-            {"movie":"Godzilla","grossSales":752166 },
-            {"movie":"Neighbors","grossSales":736680 },
-            {"movie":"Blended","grossSales":505085 },
-            {"movie":"Chef","grossSales":326484 },
-            {"movie":"The Amazing Spider-Man 2","grossSales":271058 }
-         ]
-      }      
-   ],
-   [
-      {"date": "June 10, 2014"},
-      {"movies":
-         [
-            {"movie":"The Fault in Our Stars","grossSales":5002851 },
-            {"movie":"Maleficent","grossSales":4712585 },
-            {"movie":"Edge of Tomorrow","grossSales":3482263 },
-            {"movie":"X-Men: Days of Future Past","grossSales":2021629 },
-            {"movie":"A Million Ways to Die in The West","grossSales":1058440 },
-            {"movie":"Godzilla","grossSales":855132 },
-            {"movie":"Neighbors","grossSales":800870 },
-            {"movie":"Blended","grossSales":611112 },
-            {"movie":"Chef","grossSales":403101 },
-            {"movie":"The Amazing Spider-Man 2","grossSales":315898 }
-         ]
-      }
-   ]
+var juneData = [
+   {"date":"06/01/14","movie":"Maleficent","sales":19383198 },
+   {"date":"06/01/14","movie":"X-Men: Days of Future Past","sales":9339859 },
+   {"date":"06/01/14","movie":"A Million Ways to Die in The West","sales":4231615 },
+   {"date":"06/01/14","movie":"Godzilla","sales":3417587 },
+   {"date":"06/01/14","movie":"Neighbors","sales":2129605 },
+   {"date":"06/02/14","movie":"Maleficent","sales":6207742 },
+   {"date":"06/02/14","movie":"X-Men: Days of Future Past","sales":3163908 },
+   {"date":"06/02/14","movie":"A Million Ways to Die in The West","sales":1627855 },
+   {"date":"06/02/14","movie":"Godzilla","sales":1152979 },
+   {"date":"06/02/14","movie":"Neighbors","sales":911525 },
+   {"date":"06/03/14","movie":"Maleficent","sales":7196208 },
+   {"date":"06/03/14","movie":"X-Men: Days of Future Past","sales":3787895 },
+   {"date":"06/03/14","movie":"A Million Ways to Die in The West","sales":1864635 },
+   {"date":"06/03/14","movie":"Godzilla","sales":1370135 },
+   {"date":"06/03/14","movie":"Neighbors","sales":1059450 },
+   {"date":"06/04/14","movie":"Maleficent","sales":5612603 },
+   {"date":"06/04/14","movie":"X-Men: Days of Future Past","sales":2824137 },
+   {"date":"06/04/14","movie":"A Million Ways to Die in The West","sales":1419590 },
+   {"date":"06/04/14","movie":"Godzilla","sales":1117001 },
+   {"date":"06/04/14","movie":"Neighbors","sales":897550 },
+   {"date":"06/05/14","movie":"Maleficent","sales":5399117 },
+   {"date":"06/05/14","movie":"X-Men: Days of Future Past","sales":2605125 },
+   {"date":"06/05/14","movie":"A Million Ways to Die in The West","sales":1280505 },
+   {"date":"06/05/14","movie":"Godzilla","sales":1013205 },
+   {"date":"06/05/14","movie":"Neighbors","sales":765605 },
+   {"date":"06/06/14","movie":"The Fault in Our Stars","sales":26062046 },
+   {"date":"06/06/14","movie":"Edge of Tomorrow","sales":10605165 },
+   {"date":"06/06/14","movie":"Maleficent","sales":10189870 },
+   {"date":"06/06/14","movie":"X-Men: Days of Future Past","sales":4510017 },
+   {"date":"06/06/14","movie":"A Million Ways to Die in The West","sales":2260790 },
+   {"date":"06/07/14","movie":"Maleficent","sales":13463278 },
+   {"date":"06/07/14","movie":"The Fault in Our Stars","sales":12680655 },
+   {"date":"06/07/14","movie":"Edge of Tomorrow","sales":10474234 },
+   {"date":"06/07/14","movie":"X-Men: Days of Future Past","sales":6176540 },
+   {"date":"06/07/14","movie":"A Million Ways to Die in The West","sales":2908685 },
+   {"date":"06/08/14","movie":"Maleficent","sales":10675116 },
+   {"date":"06/08/14","movie":"The Fault in Our Stars","sales":9259822 },
+   {"date":"06/08/14","movie":"Edge of Tomorrow","sales":7680847 },
+   {"date":"06/08/14","movie":"X-Men: Days of Future Past","sales":4468257 },
+   {"date":"06/08/14","movie":"A Million Ways to Die in The West","sales":2179020 },
+   {"date":"06/09/14","movie":"The Fault in Our Stars","sales":5095488 },
+   {"date":"06/09/14","movie":"Maleficent","sales":4047865 },
+   {"date":"06/09/14","movie":"Edge of Tomorrow","sales":3167460 },
+   {"date":"06/09/14","movie":"X-Men: Days of Future Past","sales":1765307 },
+   {"date":"06/09/14","movie":"A Million Ways to Die in The West","sales":917935 },
+   {"date":"06/10/14","movie":"The Fault in Our Stars","sales":5002851 },
+   {"date":"06/10/14","movie":"Maleficent","sales":4712585 },
+   {"date":"06/10/14","movie":"Edge of Tomorrow","sales":3482263 },
+   {"date":"06/10/14","movie":"X-Men: Days of Future Past","sales":2021629 },
+   {"date":"06/10/14","movie":"A Million Ways to Die in The West","sales":1058440 },
+   {"date":"06/11/14","movie":"The Fault in Our Stars","sales":4168922 },
+   {"date":"06/11/14","movie":"Maleficent","sales":3986901 },
+   {"date":"06/11/14","movie":"Edge of Tomorrow","sales":2772354 },
+   {"date":"06/11/14","movie":"X-Men: Days of Future Past","sales":1707464 },
+   {"date":"06/11/14","movie":"A Million Ways to Die in The West","sales":914865 },
+   {"date":"06/12/14","movie":"The Fault in Our Stars","sales":3705483 },
+   {"date":"06/12/14","movie":"Maleficent","sales":3593949 },
+   {"date":"06/12/14","movie":"Edge of Tomorrow","sales":2292160 },
+   {"date":"06/12/14","movie":"X-Men: Days of Future Past","sales":1389681 },
+   {"date":"06/12/14","movie":"A Million Ways to Die in The West","sales":630915 },
+   {"date":"06/13/14","movie":"22 Jump Street","sales":25144490 },
+   {"date":"06/13/14","movie":"How to Train Your Dragon 2","sales":18440040 },
+   {"date":"06/13/14","movie":"The Fault in Our Stars","sales":6359826 },
+   {"date":"06/13/14","movie":"Maleficent","sales":5848429 },
+   {"date":"06/13/14","movie":"Edge of Tomorrow","sales":4581413 },
+   {"date":"06/14/14","movie":"22 Jump Street","sales":18726869 },
+   {"date":"06/14/14","movie":"How to Train Your Dragon 2","sales":17315466 },
+   {"date":"06/14/14","movie":"Maleficent","sales":7311521 },
+   {"date":"06/14/14","movie":"Edge of Tomorrow","sales":6108727 },
+   {"date":"06/14/14","movie":"The Fault in Our Stars","sales":5741160 },
+   {"date":"06/15/14","movie":"How to Train Your Dragon 2","sales":13695816 },
+   {"date":"06/15/14","movie":"22 Jump Street","sales":13200086 },
+   {"date":"06/15/14","movie":"Edge of Tomorrow","sales":5837075 },
+   {"date":"06/15/14","movie":"Maleficent","sales":5345047 },
+   {"date":"06/15/14","movie":"X-Men: Days of Future Past","sales":3360831 },
+   {"date":"06/16/14","movie":"22 Jump Street","sales":6830926 },
+   {"date":"06/16/14","movie":"How to Train Your Dragon 2","sales":5056288 },
+   {"date":"06/16/14","movie":"The Fault in Our Stars","sales":2307777 },
+   {"date":"06/16/14","movie":"Maleficent","sales":2269929 },
+   {"date":"06/16/14","movie":"Edge of Tomorrow","sales":1672018 },
+   {"date":"06/17/14","movie":"22 Jump Street","sales":7348908 },
+   {"date":"06/17/14","movie":"How to Train Your Dragon 2","sales":5905504 },
+   {"date":"06/17/14","movie":"Maleficent","sales":2841610 },
+   {"date":"06/17/14","movie":"The Fault in Our Stars","sales":2641279 },
+   {"date":"06/17/14","movie":"Edge of Tomorrow","sales":2083413 },
+   {"date":"06/18/14","movie":"22 Jump Street","sales":5774371 },
+   {"date":"06/18/14","movie":"How to Train Your Dragon 2","sales":4778724 },
+   {"date":"06/18/14","movie":"Maleficent","sales":2393514 },
+   {"date":"06/18/14","movie":"The Fault in Our Stars","sales":2233298 },
+   {"date":"06/18/14","movie":"Edge of Tomorrow","sales":1711035 },
+   {"date":"06/19/14","movie":"22 Jump Street","sales":5424480 },
+   {"date":"06/19/14","movie":"How to Train Your Dragon 2","sales":4684897 },
+   {"date":"06/19/14","movie":"Maleficent","sales":2441986 },
+   {"date":"06/19/14","movie":"The Fault in Our Stars","sales":2178779 },
+   {"date":"06/19/14","movie":"Edge of Tomorrow","sales":1703329 },
+   {"date":"06/20/14","movie":"Think Like a Man Too","sales":12180056 },
+   {"date":"06/20/14","movie":"22 Jump Street","sales":9325176 },
+   {"date":"06/20/14","movie":"How to Train Your Dragon 2","sales":7636170 },
+   {"date":"06/20/14","movie":"Jersey Boys","sales":4644888 },
+   {"date":"06/20/14","movie":"Maleficent","sales":3999121 },
+   {"date":"06/21/14","movie":"22 Jump Street","sales":10812737 },
+   {"date":"06/21/14","movie":"Think Like a Man Too","sales":10308403 },
+   {"date":"06/21/14","movie":"How to Train Your Dragon 2","sales":10066297 },
+   {"date":"06/21/14","movie":"Maleficent","sales":5250652 },
+   {"date":"06/21/14","movie":"Jersey Boys","sales":5215367 },
+   {"date":"06/22/14","movie":"22 Jump Street","sales":7323082 },
+   {"date":"06/22/14","movie":"How to Train Your Dragon 2","sales":7016845 },
+   {"date":"06/22/14","movie":"Think Like a Man Too","sales":6753452 },
+   {"date":"06/22/14","movie":"Maleficent","sales":3660993 },
+   {"date":"06/22/14","movie":"Jersey Boys","sales":3459116 },
+   {"date":"06/23/14","movie":"22 Jump Street","sales":3638450 },
+   {"date":"06/23/14","movie":"How to Train Your Dragon 2","sales":3123254 },
+   {"date":"06/23/14","movie":"Think Like a Man Too","sales":2475300 },
+   {"date":"06/23/14","movie":"Maleficent","sales":1748844 },
+   {"date":"06/23/14","movie":"Jersey Boys","sales":1472498 },
+   {"date":"06/24/14","movie":"22 Jump Street","sales":4465576 },
+   {"date":"06/24/14","movie":"How to Train Your Dragon 2","sales":4336155 },
+   {"date":"06/24/14","movie":"Think Like a Man Too","sales":2559902 },
+   {"date":"06/24/14","movie":"Maleficent","sales":2315415 },
+   {"date":"06/24/14","movie":"Jersey Boys","sales":1933409 },
+   {"date":"06/25/14","movie":"How to Train Your Dragon 2","sales":3524302 },
+   {"date":"06/25/14","movie":"22 Jump Street","sales":3492276 },
+   {"date":"06/25/14","movie":"Maleficent","sales":1941335 },
+   {"date":"06/25/14","movie":"Think Like a Man Too","sales":1862648 },
+   {"date":"06/25/14","movie":"Jersey Boys","sales":1604028 },
+   {"date":"06/26/14","movie":"22 Jump Street","sales":2929465 },
+   {"date":"06/26/14","movie":"Maleficent","sales":1748462 },
+   {"date":"06/26/14","movie":"Think Like a Man Too","sales":1628599 },
+   {"date":"06/26/14","movie":"Jersey Boys","sales":1403180 },
+   {"date":"06/26/14","movie":"The Fault in Our Stars","sales":1352963 },
+   {"date":"06/27/14","movie":"22 Jump Street","sales":5135431 },
+   {"date":"06/27/14","movie":"How to Train Your Dragon 2","sales":4120789 },
+   {"date":"06/27/14","movie":"Think Like a Man Too","sales":3383399 },
+   {"date":"06/27/14","movie":"Maleficent","sales":2598651 },
+   {"date":"06/27/14","movie":"Jersey Boys","sales":2259438 },
+   {"date":"06/28/14","movie":"22 Jump Street","sales":6172211 },
+   {"date":"06/28/14","movie":"How to Train Your Dragon 2","sales":5156662 },
+   {"date":"06/28/14","movie":"Think Like a Man Too","sales":4258372 },
+   {"date":"06/28/14","movie":"Maleficent","sales":3307493 },
+   {"date":"06/28/14","movie":"Jersey Boys","sales":3163706 },
+   {"date":"06/29/14","movie":"22 Jump Street","sales":4534733 },
+   {"date":"06/29/14","movie":"How to Train Your Dragon 2","sales":3960246 },
+   {"date":"06/29/14","movie":"Think Like a Man Too","sales":2674626 },
+   {"date":"06/29/14","movie":"Maleficent","sales":2470530 },
+   {"date":"06/29/14","movie":"Jersey Boys","sales":2289120 },
+   {"date":"06/30/14","movie":"Transformers: Age of Extinction","sales":10504274 },
+   {"date":"06/30/14","movie":"22 Jump Street","sales":2439968 },
+   {"date":"06/30/14","movie":"How to Train Your Dragon 2","sales":2273703 },
+   {"date":"06/30/14","movie":"Maleficent","sales":1441486 },
+   {"date":"06/30/14","movie":"Think Like a Man Too","sales":1123579 }
 ];
 
-function buildSVG(data) {
+
+// structures data in proper way from CSV
+function createData(data) {
+
+   // Parses date in data
+   var parseDate = d3.time.format("%m/%d/%y").parse;
+
+   //create nested array by movie
+   var movies = d3.nest()
+      .key(function(d) { return d.movie })
+      .entries(data);
+
+   movies.forEach(function(movie) {
+      movie.values.forEach(function(d) { 
+         d.date = parseDate(d.date); 
+         d.sales = +d.sales;
+      });
+      movie.maxSales = d3.max(movie.values, function(d) {
+         return d.sales;
+      });
+      movie.minSales = d3.min(movie.values, function(d) {
+         return d.sales;
+      });
+      movie.totalSales = d3.sum(movie.values, function(d) {
+         return d.sales;
+      });
+   });
+
+   movies.sort(function(a, b) {
+      return b.maxSales - a.maxSales;
+   });
+
+   return movies
+}; // End of createData
+
+
+// Sets up SVG space
+function buildSVG(data, callback) {
+
+   var movies = createData(data);
+
    var margin  = {
       top      : 100,
       right    : 100,
@@ -179,70 +199,106 @@ function buildSVG(data) {
       left     : 150
       },
       width    = 1300 - margin.right - margin.left,
-      height   = 750 - margin.top - margin.bottom,
+      height   = 750 - margin.top - margin.bottom;
 
-      maxSales = d3.max(boxOffice, function(day){
-         return d3.max(day[1].movies, function(movie) {
-            return movie.grossSales;
-         });
-      }),
+   var maxDate = d3.max(movies, function(m) {
+      return d3.max(m.values, function(d) {
+         return d.date;
+      });
+   });
 
-      minSales = d3.min(boxOffice, function(day){
-         return d3.min(day[1].movies, function(movie) {
-            return movie.grossSales;
-         });
-      });   
+   var minDate = d3.min(movies, function(m) {
+      return d3.min(m.values, function(d) {
+         return d.date;
+      });
+   });
 
-   window.yAxisScale = d3.scale.linear()
-      .domain([maxSales + (.1*maxSales), 0])
-      .range([0, height]);
+   var maxSales = d3.max(movies, function(m) {
+      return m.maxSales;
+   });
 
-   window.xAxisScale = d3.scale.linear()
-      .domain([0, boxOffice.length])
-      .range([0, width]);
+   var minSales = d3.min(movies, function(m) {
+      return m.minSales;
+   });
 
-   window.svg = d3.select('body')
-      .append('svg')
-         .attr('width', width + margin.right + margin.left)
+   window.x = d3.time.scale()
+      .range([0, width])
+      .domain([minDate, maxDate]);
+
+   window.y = d3.scale.linear()
+      .range([height, 0])
+      .domain([0, maxSales]);
+
+   var xAxis = d3.svg.axis()
+      .scale(window.x)
+      .orient('bottom');
+
+   var yAxis = d3.svg.axis()
+      .scale(window.y)
+      .orient('left');
+
+   window.svg = d3.select('body').append('svg')
+         .attr('width', width + margin.left + margin.right)
          .attr('height', height + margin.top + margin.bottom)
       .append('g')
          .attr('width', width)
          .attr('height', height)
          .attr('class', 'graph')
-         .attr('transform', 'translate('+margin.left+','+margin.top+')');
-
-   var xAxis = d3.svg.axis()
-      .scale(window.xAxisScale)
-      .orient('bottom');
-
-   var yAxis = d3.svg.axis()
-      .scale(window.yAxisScale)
-      .orient('right');
-
+         .attr('transform', 'translate(' + margin.left + ',' + margin.top + ')')
+      
    window.svg.append('g')
-         .attr('class', 'x axis')
-         .attr('transform', 'translate(0,'+height+')')
-         .call(xAxis)
-         .append('text')
+      .attr('class', 'x axis')
+      .attr('transform', 'translate(0,'+height+')')
+      .call(xAxis)
+      .append('text')
       .text('Date')
-         .attr('x', width/2)
-         .attr('y', 50);
+      .attr('x', width/2)
+      .attr('y', 50);
 
    window.svg.append('g')
-         .attr('class', 'y axis')
-         .attr('transform', 'translate('+width+', 0)')
-         .call(yAxis)
-         .append('text')
-      .text('Movie')
-         .attr('x', 100)
-         .attr('y', height/2);
+      .attr('class', 'y axis')
+      .call(yAxis)
+      .append('text')
+      .text('Sales')
+      .attr('x', -100)
+      .attr('y', height/2);
 
-}; // end of buildSVG
+   // Creates ordinal color scale
+   window.color = d3.scale.ordinal()
+      .range(colorbrewer.Paired[12]);
 
+   callback(movies);
 
+}; // End of buildSVG
+
+function projectData(data) {
+
+  console.log(data)
+   var line = d3.svg.line()
+      .x(function(d) { return x(d.date); })
+      .y(function(d) { return y(d.sales); })
+      .interpolate("cardinal");
+
+   data.forEach(function(movie) {
+      console.log(Math.ceil((data.indexOf(movie)/data.length)*13))
+      window.svg.append('path')
+         .attr('class', "line")
+         .attr('id', movie.key)
+         .attr('d', line(movie.values))
+         .attr('stroke-width', 4)
+         .style('opacity', .75)
+         .attr('stroke', function() { return window.color(Math.ceil((data.indexOf(movie)/data.length)*12)); })
+         .attr('fill', 'none');
+   });
+
+}; // End of projectData
 
 $(function() {
-   buildSVG(boxOffice);
-});
+   
+   buildSVG(juneData, projectData);
+
+})
+
+
 
 
