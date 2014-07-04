@@ -159,22 +159,26 @@ function createData(data) {
    var parseDate = d3.time.format("%m/%d/%y").parse;
 
    //create nested array by movie
-   var movies = d3.nest()
-      .key(function(d) { return d.movie })
+   dates = d3.nest()
+      .key(function(d) { return d.date })
       .entries(data);
 
-   movies.forEach(function(movie) {
-      movie.values.forEach(function(d) { 
-         d.date = parseDate(d.date); 
-         d.sales = +d.sales;
+
+
+   dates.forEach(function(day) {
+      day.key = parseDate(day.key);
+      day.values.forEach(function(d) { 
+         delete d.date;
+         // day.movie = (d.movie); 
+         // d.sales = +d.sales;
       });
-      movie.maxSales = d3.max(movie.values, function(d) {
+      day.maxSales = d3.max(day.values, function(d) {
          return d.sales;
       });
-      movie.minSales = d3.min(movie.values, function(d) {
+      day.minSales = d3.min(day.values, function(d) {
          return d.sales;
       });
-      movie.totalSales = d3.sum(movie.values, function(d) {
+      day.totalSales = d3.sum(day.values, function(d) {
          return d.sales;
       });
    });
@@ -183,7 +187,7 @@ function createData(data) {
    //    return b.maxSales - a.maxSales;
    // });
 
-   return movies
+   return dates;
 }; // End of createData
 
 
