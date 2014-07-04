@@ -179,16 +179,40 @@ function createData(data) {
       });
    });
 
-   movies.sort(function(a, b) {
-      return b.maxSales - a.maxSales;
-   });
+   // movies.sort(function(a, b) {
+   //    return b.maxSales - a.maxSales;
+   // });
 
    return movies
 }; // End of createData
 
 
+// Appends data to svg
+function project(data) {
+
+  console.log(data)
+   var line = d3.svg.line()
+      .x(function(d) { return x(d.date); })
+      .y(function(d) { return y(d.sales); })
+      .interpolate("cardinal");
+
+   data.forEach(function(movie) {
+      window.svg.append('path')
+         .attr('class', "line")
+         .attr('id', movie.key)
+         .attr('d', line(movie.values))
+         .attr('stroke-width', 4)
+         .style('opacity', .75)
+         .attr('stroke', function() { return window.color(Math.ceil((data.indexOf(movie)/data.length)*12)); })
+         .attr('fill', 'none');
+   });
+
+}; // End of project
+
+
+
 // Sets up SVG space
-function buildSVG(data, callback) {
+function buildSVG(data) {
 
    var movies = createData(data);
 
@@ -267,35 +291,15 @@ function buildSVG(data, callback) {
    window.color = d3.scale.ordinal()
       .range(colorbrewer.Paired[12]);
 
-   callback(movies);
+   project(movies);
 
 }; // End of buildSVG
 
-function projectData(data) {
 
-  console.log(data)
-   var line = d3.svg.line()
-      .x(function(d) { return x(d.date); })
-      .y(function(d) { return y(d.sales); })
-      .interpolate("cardinal");
-
-   data.forEach(function(movie) {
-      console.log(Math.ceil((data.indexOf(movie)/data.length)*13))
-      window.svg.append('path')
-         .attr('class', "line")
-         .attr('id', movie.key)
-         .attr('d', line(movie.values))
-         .attr('stroke-width', 4)
-         .style('opacity', .75)
-         .attr('stroke', function() { return window.color(Math.ceil((data.indexOf(movie)/data.length)*12)); })
-         .attr('fill', 'none');
-   });
-
-}; // End of projectData
 
 $(function() {
    
-   buildSVG(juneData, projectData);
+   buildSVG(juneData);
 
 })
 
