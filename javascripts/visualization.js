@@ -152,26 +152,19 @@ var juneData = [
 ];
 
 
-// structures data in proper way from CSV
-function createData(data) {
+// structures data according to date
+function createDateData(data) {
 
    // Parses date in data
    var parseDate = d3.time.format("%m/%d/%y").parse;
 
-   //create nested array by movie
-   dates = d3.nest()
+   //create nested array by date
+   var dates = d3.nest()
       .key(function(d) { return d.date })
       .entries(data);
 
-
-
    dates.forEach(function(day) {
       day.key = parseDate(day.key);
-      day.values.forEach(function(d) { 
-         delete d.date;
-         // day.movie = (d.movie); 
-         // d.sales = +d.sales;
-      });
       day.maxSales = d3.max(day.values, function(d) {
          return d.sales;
       });
@@ -181,20 +174,47 @@ function createData(data) {
       day.totalSales = d3.sum(day.values, function(d) {
          return d.sales;
       });
+
    });
 
-   // movies.sort(function(a, b) {
-   //    return b.maxSales - a.maxSales;
-   // });
-
    return dates;
-}; // End of createData
+}; // End of createDateData
+
+
+// structures data according to movie
+function createMovieData(data) {
+
+   // Parses date in data
+   var parseDate = d3.time.format("%m/%d/%y").parse;
+
+   //create nested array by movie
+   var movies = d3.nest()
+      .key(function(d) { return d.movie })
+      .entries(data);
+
+   movies.forEach(function(movie) {
+      movie.values.forEach(function(d) { 
+          d.date = parseDate(d.date); 
+          d.sales = +d.sales;
+      });
+   movie.maxSales = d3.max(movie.values, function(d) {
+      return d.sales;
+   });
+   movie.minSales = d3.min(movie.values, function(d) {
+      return d.sales;
+   });
+   movie.totalSales = d3.sum(movie.values, function(d) {
+      return d.sales;
+   });
+});
+
+   return movies;
+ }; // End of createMovieData
 
 
 // Appends data to svg
-function project(data) {
+function projectGraph(data) {
 
-  console.log(data)
    var line = d3.svg.line()
       .x(function(d) { return x(d.date); })
       .y(function(d) { return y(d.sales); })
@@ -214,11 +234,14 @@ function project(data) {
 }; // End of project
 
 
-
 // Sets up SVG space
 function buildSVG(data) {
 
-   var movies = createData(data);
+
+   var movies = createMovieData(data);
+
+   // console.log(dates)
+   // console.log(movies)
 
    var margin  = {
       top      : 100,
@@ -266,17 +289,17 @@ function buildSVG(data) {
       .orient('left');
 
    window.svg = d3.select('body').append('svg')
-         .attr('width', width + margin.left + margin.right)
+         .attr('width', width +  margin.left + margin.right)
          .attr('height', height + margin.top + margin.bottom)
       .append('g')
          .attr('width', width)
          .attr('height', height)
          .attr('class', 'graph')
-         .attr('transform', 'translate(' + margin.left + ',' + margin.top + ')')
+         .attr('transform', 'translate(' + margin.left + ',' + margin.top + ')');
       
    window.svg.append('g')
       .attr('class', 'x axis')
-      .attr('transform', 'translate(0,'+height+')')
+      .attr('transform', 'translate(0,' + height + ')')
       .call(xAxis)
       .append('text')
       .text('Date')
@@ -295,16 +318,15 @@ function buildSVG(data) {
    window.color = d3.scale.ordinal()
       .range(colorbrewer.Paired[12]);
 
-   project(movies);
-
+   projectGraph(movies);
 }; // End of buildSVG
 
 
 
 $(function() {
-   
+    
    buildSVG(juneData);
-
+  
 })
 
 
