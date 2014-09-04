@@ -237,11 +237,11 @@ function projectGraph(data) {
 // Sets up SVG space
 function buildSVG(data) {
 
-
+   // var dates = createDateData(data);
    var movies = createMovieData(data);
 
    // console.log(dates)
-   // console.log(movies)
+   console.log(movies)
 
    var margin  = {
       top      : 100,
